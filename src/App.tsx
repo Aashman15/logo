@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import { Provider } from "./components/ui/provider";
 import Wellbeing from "./components/Wellbeing";
 import WellbeingDesktop from "./components/WellbeingDesktop";
+import Youare from "./components/Youare";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Wellbeing />
       <WellbeingDesktop />
       <Fresh />
+      <Youare />
     </Provider>
   );
 }
