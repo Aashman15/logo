@@ -30,7 +30,15 @@ function HeroPassage() {
         Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam
         lacus platea orci vel elit blandit facilisis{" "}
       </Text>
-      <Button bgColor={"primary"} size={"xl"} borderRadius={"full"} px={"12"}>
+      <Button
+        bgColor={"primary"}
+        size={"xl"}
+        borderRadius={"full"}
+        px={"12"}
+        _hover={{
+          opacity: 0.7,
+        }}
+      >
         Join Now
       </Button>
     </Box>

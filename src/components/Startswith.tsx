@@ -84,8 +84,14 @@ export default function Startswith() {
           marginInline={"auto"}
         >
           <Image
-            height={"22px"}
-            width={"22px"}
+            height={{
+              base: "22px",
+              md: "30px",
+            }}
+            width={{
+              base: "22px",
+              md: "30px",
+            }}
             src={leafImage}
             alt="Leaf Image"
           />
@@ -124,35 +130,43 @@ export default function Startswith() {
             base: "13px",
             md: "28px",
           }}
+          _hover={{
+            color: "text_primary",
+          }}
         >
           Join Now
         </Button>
-        <Grid
-          py={{ base: "71px", xl: "119px" }}
-          px={{
-            md: "66px",
-          }}
-          bgColor={"secondary_light"}
-          rounded={"lg"}
-          templateColumns={{
-            base: "1fr",
-            md: "1fr 1fr",
-            xl: "1fr 1fr 1fr 1fr",
-          }}
-          rowGap={{
-            base: "49px",
-          }}
-          columnGap={"32px"}
-          width={"90%"}
-          marginInline={"auto"}
-          mt={{ base: "38px", md: "42px" }}
-        >
-          <StartswithCard />
-          <StartswithCard />
-          <StartswithCard />
-          <StartswithCard />
-        </Grid>
       </Box>
+      <Grid
+        py={{ base: "71px", xl: "119px" }}
+        px={{
+          md: "66px",
+        }}
+        bgColor={"secondary_light"}
+        rounded={"lg"}
+        templateColumns={{
+          base: "1fr",
+          md: "1fr 1fr",
+          xl: "1fr 1fr 1fr 1fr",
+        }}
+        rowGap={{
+          base: "49px",
+        }}
+        columnGap={"32px"}
+        width={"90%"}
+        marginInline={"auto"}
+        mt={{
+          base: "-79px",
+          md: "-218px",
+          xl: "-197px",
+        }}
+        textAlign={"center"}
+      >
+        <StartswithCard />
+        <StartswithCard />
+        <StartswithCard />
+        <StartswithCard />
+      </Grid>
     </Container>
   );
 }
