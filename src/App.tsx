@@ -1,3 +1,4 @@
+import Fresh from "./components/fresh";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 import { Provider } from "./components/ui/provider";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Wellbeing />
       <WellbeingDesktop />
+      <Fresh />
     </Provider>
   );
 }
