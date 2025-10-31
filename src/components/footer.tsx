@@ -1,12 +1,4 @@
-import {
-  Box,
-  Container,
-  Flex,
-  Heading,
-  Image,
-  Link,
-  List,
-} from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, Image, Link } from "@chakra-ui/react";
 import twitterLogo from "@/assets/images/twitter_icon.png";
 import instagramLogo from "@/assets/images/instagram_icon.png";
 import linkedInLogo from "@/assets/images/linked_in_icon.png";
