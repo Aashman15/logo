@@ -1,6 +1,7 @@
 import Fresh from "./components/fresh";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
+import Startswith from "./components/Startswith";
 import { Provider } from "./components/ui/provider";
 import Wellbeing from "./components/Wellbeing";
 import WellbeingDesktop from "./components/WellbeingDesktop";
@@ -15,6 +16,7 @@ function App() {
       <WellbeingDesktop />
       <Fresh />
       <Youare />
+      <Startswith />
     </Provider>
   );
 }
